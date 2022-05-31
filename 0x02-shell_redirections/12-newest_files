@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d | sort -n | tail -1
+ls -lt | head -10
