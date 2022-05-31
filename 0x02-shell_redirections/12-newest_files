@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt | head | sort
+find . -type f -printf "%t - %p\n | sort -n | tail -1
