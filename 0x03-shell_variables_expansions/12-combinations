@@ -1,2 +1,2 @@
 #!/bin/bash
-echo (a..z)(a..z)
+echo (a..z)(a..z)|tr * * * 8\n*|grep -v 'oo"
